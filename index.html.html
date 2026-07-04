@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <nav class="navbar">
+      <div class="logo">Nature Gallery</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+   </nav>
+
+   <main>
+    <section id="home">
+        <h1>Hi, I'm Ayush Wagh.</h1>
+        <p>This is my Nature Gallery.</p>
+    </section>
+
+    <section class="container" id="gallery">
+        <div class="left-text">
+            <h2 class="heading">Nature Gallery</h2> 
+            <p class="subheading">A nature gallery is a visual display of the earth's beauty. It captures stunning landscapes, wild animals, and plant life. These collections remind us to protect our planet.</p>
+        </div>
+        <div class="gallery">  
+           <div class="box" data-src="trees.jpg" style="background-image:url(trees.jpg)">Trees</div>
+           <div class="box row-2" data-src="waterfall.jpg" style="background-image:url(waterfall.jpg)">Waterfall</div>
+           <div class="box row-2" data-src="Tiger.jpg" style="background-image:url(Tiger.jpg)">Tiger</div>
+           <div class="box" data-src="Sunset.jpg" style="background-image:url(Sunset.jpg)">Sunset</div>
+        </div>
+    </section>
+        
+    <section id="about">
+        <h2>About</h2>
+        <p>Nature Gallery is more than just a collection of photographs—it's a journey into the heart of the wilderness. We are passionate storytellers who use the camera to document the raw, unfiltered beauty of our planet. Our lens travels deep into dense forests to capture the silent power of a tiger on the prowl, climbs high mountains to frame the first light of dawn, and waits patiently by rivers to catch the perfect reflection of a sunset. From the intricate patterns on a butterfly's wing to the vast, star-filled night sky, we believe every element of nature deserves to be seen and celebrated. Our mission is to bring the outside world closer to you, to spark curiosity, respect, and a deep love for the environment.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a question, want to collaborate, or just want to share your love for nature? We’d love to hear from you.</p>
+        <h3>Reach out to us:</h3>
+        <h4>Phone: +91 7972764580</h4>
+        <h4>Location: Ahilyanagar, Maharashtra</h4>
+        <div class="social-links">
+         <p><a href="https://github.com/ayushwagh1273-max" target="_blank">GitHub</a></p>
+         <p><a href="https://www.linkedin.com/in/ayush-wagh-352682397" target="_blank">LinkedIn</a></p>
+         <p><a href="mailto:ayushwagh1273@gmail.com" target="_blank">Email Me</a></p>
+        </div>
+    </section>
+   </main>
+
+    <div class="galleryOverlay"></div>
+    <div class="imgbox">
+        <span>&times;</span>
+        <img src="" alt="Gallery Image">
+    </div>
+
+<script src="gallery.js"></script>
+</body>
+</html>
